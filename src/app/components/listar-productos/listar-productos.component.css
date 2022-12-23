@@ -10,3 +10,11 @@
     vertical-align:middle;
 }
 
+@media(max-width:768px){
+    .col-lg-8 {
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+} 
+
