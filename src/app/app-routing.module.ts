@@ -7,12 +7,12 @@ import { CrearProductoComponent } from './components/crear-producto/crear-produc
 import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
-  { path: '', component: ListarProductosComponent },
   { path: 'home', component: HomeComponent},
+  { path: '', component: HomeComponent },
   { path: 'listar-productos', component: ListarProductosComponent },
   { path: 'crear-producto', component: CrearProductoComponent },
   { path: 'editar-producto/:id', component: CrearProductoComponent },
-  { path: '**', redirectTo: '', pathMatch: 'full'}
+  { path: '**', redirectTo: 'home', pathMatch: 'full'}
 ];
 
 @NgModule({
