@@ -1,3 +1,4 @@
+
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
@@ -8,7 +9,8 @@ import { Producto } from '../models/producto';
 })
 export class ProductoService {
     // url = 'http://localhost:4000/api/productos/'; //COMENTAR PARA DEPLOY
-       url = 'back-final-pwa-production.up.railway.app' //< LINK A RAILWAY
+      url = 'https://back-final-pwa-production.up.railway.app/api/productos/'; //< LINK A RAILWAY
+      // url = environment.URL;
 
   constructor(private http: HttpClient) { }
 

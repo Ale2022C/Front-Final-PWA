@@ -1,0 +1,19 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    color: #3D5656;
+}
+
+.w3-row {
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    max-height: fit-content;
+}
+
+.logo {
+    display: inline;
+    width: 70%;
+    margin: 2rem;
+    filter: drop-shadow(30px 0px 10px #68B984)
+
+}

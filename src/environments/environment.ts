@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  URL: "back-final-pwa-production.up.railway.app"
+  URL: "https://back-final-pwa-production.up.railway.app/"
 };
 
 /*

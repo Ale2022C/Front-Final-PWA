@@ -1,4 +1,4 @@
-<div class="container mt-5">
+<div class="form p-5">
     <div class="row">
         <div class="col-lg-8 offset-lg-2">
             <div class="card">
@@ -20,10 +20,10 @@
                             <td>{{ producto.nombre }}</td>
                             <td>{{ producto.categoria }}</td>
                             <td>{{ producto.ubicacion }}</td>
-                            <td>{{ producto.precio}}</td>
+                            <td>{{ producto.precio }}</td>
                             <td>
-                                <i [routerLink]="['/editar-producto', producto._id]" class="bi bi-pen text-primary"></i>
-                                <i (click)="eliminarProducto(producto._id)" class="bi bi-trash text-danger"></i>
+                                <i [routerLink]="['/editar-producto', producto._id]" class="bi bi-pen text-primary m-3"></i>
+                                <i (click)="eliminarProducto(producto._id)" class="bi bi-trash text-danger m-3"></i>
                             </td>
                         </tr>
                         </tbody>
