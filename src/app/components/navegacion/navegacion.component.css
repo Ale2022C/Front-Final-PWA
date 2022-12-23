@@ -82,6 +82,25 @@ span a {
     }
 } 
 
+@media(max-width:768px){
+    .footer h2 {
+      font-size: 1.5rem;
+    }
+} 
+
+@media(max-width:768px){
+    .footer p {
+      font-size: 0.9rem;
+    }
+} 
+
+@media(max-width:768px){
+    .footer {
+      min-height: 7%;
+      justify-content: start;
+    }
+} 
+
 .fa {
     margin: auto 0.5rem;
 }

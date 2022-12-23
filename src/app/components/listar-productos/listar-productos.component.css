@@ -18,3 +18,9 @@
     }
 } 
 
+.spacer {
+    height: 15vh;
+    margin: 0 0 -15vh 0;
+}
+
+
